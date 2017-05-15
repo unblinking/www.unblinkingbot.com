@@ -1,0 +1,60 @@
+@media (max-width: 400px) {
+    /* http://stackoverflow.com/a/21365652 */
+    .col-xxs {
+        display: block;
+        float: none;
+        width: 100%
+    }
+}
+
+.card {
+    background-color: #333;
+    border-width: 1px;
+    border-color: #0b7cbd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-footer {
+    background-color: transparent;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-img-top {
+    padding: 25px;
+}
+
+.card-img-dark {
+    background-color: #000;
+    border-color: #000;
+}
+
+.card-img-light {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #0b7cbd;
+}
+
+.list-group {
+    margin: 0px;
+    padding: 0px;
+}
+
+.margin-b-25 {
+    margin-bottom: 25px
+}
+
+.navbar {
+    background-color: #333;
+    border-width: 1px;
+    border-color: #0b7cbd;
+}
