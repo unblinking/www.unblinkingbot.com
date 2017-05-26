@@ -6,7 +6,7 @@ This is the source code repository for [www.unblinkingBot.com](http://www.unblin
 
 The official website of the unblinkingBot, a Slack bot home-surveillance-system assistant.  
 
-Hosting of this website is provided by [GitHub Pages](https://pages.github.com/).  
+Hosting of this website is provided by [GitHub Pages](https://pages.github.com/), [configured](https://github.com/nothingworksright/unblinkingbot_website/blob/master/_config.yml) to use the [minimal theme](https://github.com/pages-themes/minimal), which uses a [layout](https://github.com/nothingworksright/unblinkingbot_website/blob/master/_layouts/default.html) based on the theme's [default layout](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html). Content is authored in [Markdown](https://daringfireball.net/projects/markdown/syntax) format. Code review automated using [Code Climate](https://codeclimate.com/github/nothingworksright/unblinkingbot_website), [configured]()
 
 ## Show your support  
 
