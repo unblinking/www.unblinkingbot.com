@@ -1,6 +1,6 @@
 # unblinkingBot, Website  
 
-This is the source code repo for the [unblinkingBot](http://www.unblinkingBot.com/) website.  
+This is the [GitHub Pages](https://pages.github.com/) source code repository for [www.unblinkingBot.com](http://www.unblinkingBot.com/).  
 
 ## Show your support  
 
