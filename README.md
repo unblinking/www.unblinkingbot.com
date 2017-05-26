@@ -1,6 +1,12 @@
 # unblinkingBot, Website  
 
-This is the [GitHub Pages](https://pages.github.com/) source code repository for [www.unblinkingBot.com](http://www.unblinkingBot.com/).  
+This is the source code repository for [www.unblinkingBot.com](http://www.unblinkingBot.com/).  
+
+# About  
+
+The official website of the unblinkingBot, a Slack bot home-surveillance-system assistant.  
+
+Hosting of this website is provided by [GitHub Pages](https://pages.github.com/).  
 
 ## Show your support  
 
