@@ -2,7 +2,7 @@
 
 This is the source code repository for [www.unblinkingBot.com](http://www.unblinkingBot.com/).  
 
-# About  
+## About  
 
 The official website of the unblinkingBot, a Slack bot home-surveillance-system assistant.  
 
