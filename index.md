@@ -34,7 +34,10 @@ For amd64 based systems.
 
 #### The amd64 Docker image  
 
-This repository is setup on [Docker](https://hub.docker.com/r/nothingworksright/unblinkingbot/) as an automated build. The Dockerfile starts the build from [nothingworksright/amd64_debian_jessie_node](https://hub.docker.com/r/nothingworksright/amd64_debian_jessie_node/), which is itself an automated build which starts from [resin/amd64-debian:jessie](https://hub.docker.com/r/resin/amd64-debian/), which is built on top of the [official Debian Docker image](https://hub.docker.com/_/debian/).  
+This repository is setup on [Docker Hub](https://hub.docker.com/r/nothingworksright/unblinkingbot/) as an automated build.
+The Dockerfile starts the build from [nothingworksright/amd64_debian_jessie_node](https://hub.docker.com/r/nothingworksright/amd64_debian_jessie_node/),
+which is itself an automated build which starts from [resin/amd64-debian:jessie](https://hub.docker.com/r/resin/amd64-debian/),
+which is built on top of the [official Debian Docker image](https://hub.docker.com/_/debian/).  
 
 ### [nothingworksright/unblinkingbot_pi](https://github.com/nothingworksright/unblinkingbot_pi) (armv7hf)  
 
