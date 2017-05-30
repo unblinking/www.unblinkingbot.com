@@ -22,7 +22,7 @@ For reliability, the bot needed to start automatically, run unattended for long 
 
 Installing and running the bot should require minimal steps, maybe even just a single step. Although it is possible to install the bot in a Linux system using the systemd service file, enable the service, start the service, and verify that the service is running, those steps might appear complicated for someone unfamiliar with systemd, Linux, sudo, etc. Alternatively, the bot can be run as a [Docker](https://github.com/docker) container using a single ```docker run``` command. 
 
-Once running, setting up the bot needed to be simple, so I gave it a web frontend using [Express](https://github.com/expressjs/express/), [Socket.IO](https://github.com/socketio/socket.io), [Pug](https://github.com/pugjs/pug), and [Level](https://github.com/Level/level).  
+Once running, setting up the bot needed to be simple, so I gave it a web frontend using [Express](https://github.com/expressjs/express/), [Socket.IO](https://github.com/socketio/socket.io), [Pug](https://github.com/pugjs/pug), and [Level](https://github.com/Level/level). From the web UI a user can save their unique [Slack bot-user](https://api.slack.com/bot-users) token, choose a default [Slack](https://slack.com/) channel or user for the bot to deliver notifications to, save surveillance system integration details, etc.  
 
 ## Source Code Repositories  
 
