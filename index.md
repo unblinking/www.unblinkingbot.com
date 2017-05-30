@@ -1,6 +1,6 @@
 # unblinkingBot  
 
-![unblinkingBot Logo](img/unblinkingbot_192x192.png)  
+![Logo](img/unblinkingbot_192x192.png)  
 
 A home-surveillance-system assistant. The unblinkingBot is a Slack bot, hosted on your home server.  
 
