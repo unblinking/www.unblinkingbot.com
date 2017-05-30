@@ -35,7 +35,7 @@ For amd64 based systems.
 #### The amd64 Docker image  
 
 This repository is setup on [Docker Hub](https://hub.docker.com/r/nothingworksright/unblinkingbot/) as an automated build.
-The Dockerfile starts the build from [nothingworksright/amd64_debian_jessie_node](https://hub.docker.com/r/nothingworksright/amd64_debian_jessie_node/),
+The Dockerfile starts the build from [my amd64 debian jessie node image](https://hub.docker.com/r/nothingworksright/amd64_debian_jessie_node/),
 which is itself an automated build which starts from [resin/amd64-debian:jessie](https://hub.docker.com/r/resin/amd64-debian/),
 which is built on top of the [official Debian Docker image](https://hub.docker.com/_/debian/).  
 
@@ -45,7 +45,7 @@ For the Raspberry Pi (armv7hf based systems).
 
 #### The armv7hf Docker image  
 
-This repository is setup on [Docker Hub](https://hub.docker.com/r/nothingworksright/unblinkingbot_pi/). This build is completed manually on a Raspberry Pi, before pushing the container image to Docker Hub. The Dockerfile starts the build from [nothingworksright/armv7hf_debian_jessie_node](https://hub.docker.com/r/nothingworksright/armv7hf_debian_jessie_node/), which is also a manually built container image which starts from [resin/armv7hf-debian:jessie](https://hub.docker.com/r/resin/armv7hf-debian/), which is built on top of the [official Debian Docker image for armhf](https://hub.docker.com/r/armhf/debian/).  
+This repository is setup on [Docker Hub](https://hub.docker.com/r/nothingworksright/unblinkingbot_pi/). This build is completed manually on a Raspberry Pi, before pushing the container image to Docker Hub. The Dockerfile starts the build from [my armv7hf debian jessie node image](https://hub.docker.com/r/nothingworksright/armv7hf_debian_jessie_node/), which is also a manually built container image which starts from [resin/armv7hf-debian:jessie](https://hub.docker.com/r/resin/armv7hf-debian/), which is built on top of the [official Debian Docker image for armhf](https://hub.docker.com/r/armhf/debian/).  
 
 ___
 
