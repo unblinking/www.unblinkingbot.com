@@ -26,7 +26,7 @@ Once running, setting up the bot needed to be simple, so I gave it a web fronten
 
 ## Source Code Repositories  
 
-There are separate repositories for amd64 and armv7hf.  
+There are separate repositories for amd64 and armv7hf CPU architectures.  
 
 ### [nothingworksright/unblinkingbot](https://github.com/nothingworksright/unblinkingbot) (amd64)  
 
