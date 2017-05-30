@@ -6,7 +6,7 @@ A home-surveillance-system assistant. The unblinkingBot is a Slack bot, hosted o
 
 ___
 
-## Source Code Repositories  
+## [Source Code Repositories](#source-code-repositories)  
 
 There are separate repositories for amd64 and armv7hf.  
 
