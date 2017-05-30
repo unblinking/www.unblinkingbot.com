@@ -2,6 +2,8 @@
 
 A home-surveillance-system assistant. The unblinkingBot is a Slack bot, hosted on your home server.  
 
+___
+
 ## Source Code Repositories  
 
 There are separate repositories for amd64 and armv7hf.  
@@ -22,6 +24,6 @@ For the Raspberry Pi (armv7hf based systems).
 
 This repository is setup on [Docker Hub](https://hub.docker.com/r/nothingworksright/unblinkingbot_pi/). This build is completed manually on a Raspberry Pi, before pushing the container image to Docker Hub. The Dockerfile starts the build from [nothingworksright/armv7hf_debian_jessie_node](https://hub.docker.com/r/nothingworksright/armv7hf_debian_jessie_node/), which is also a manually built container image which starts from [resin/armv7hf-debian:jessie](https://hub.docker.com/r/resin/armv7hf-debian/), which is built on top of the [official Debian Docker image for armhf](https://hub.docker.com/r/armhf/debian/).  
 
----
+___
 
-View this file [directly on GitHub](https://github.com/nothingworksright/unblinkingbot_website/blob/master/index.md)  
+&copy; 2017 [__nothingworksright__](https://github.com/nothingworksright)  
