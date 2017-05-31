@@ -14,6 +14,10 @@ If you ask it for a snapshot of a surveillance camera, it provides the image in 
 
 :information_source: **Note**: *unblinkingBot is an alpha, open-source project.*  
 
+Documentation is available via the wiki:
+- [unblinkingBot wiki](https://github.com/nothingworksright/unblinkingbot/wiki) (for amd64 systems)  
+- [unblinkingPi wiki](https://github.com/nothingworksright/unblinkingbot_pi/wiki) (for armv7hf systems, like Raspberry Pi)  
+
 ## Why  
 
 I wanted a way to access my [motionEyeOs](https://github.com/ccrisan/motioneyeos/wiki) surveillance system from outside of my home network (while away from home for example), without a static IP address, without a Dynamic DNS service, and without exposing ports to the Internet.  
