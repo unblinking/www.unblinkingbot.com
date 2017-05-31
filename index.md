@@ -6,9 +6,11 @@ ___
 
 ## About  
 
-The unblinkingBot is a surveillance-system assistant. It is an application that runs on your own server (such as a [Raspberry Pi](https://www.raspberrypi.org/products/)), providing an interface between your surveillance system and your [Slack team](https://get.slack.help/hc/en-us/articles/115004071768).  
+The unblinkingBot is a surveillance-system assistant.  
 
-It connects to [Slack](https://slack.com/) as a [bot-user](https://api.slack.com/bot-users), so you talk to it using the [Slack application](https://get.slack.help/hc/en-us/articles/201746897-Slack-apps-for-computers-phones-tablets). If you ask it for a snapshot of a surveillance camera, it provides the image in the chat.  
+It is an application that runs on your own server (such as a [Raspberry Pi](https://www.raspberrypi.org/products/)), providing an interface between your surveillance system and your [Slack team](https://get.slack.help/hc/en-us/articles/115004071768). It connects to [Slack](https://slack.com/) as a [bot-user](https://api.slack.com/bot-users), so you talk to it using the [Slack application](https://get.slack.help/hc/en-us/articles/201746897-Slack-apps-for-computers-phones-tablets).  
+
+If you ask it for a snapshot of a surveillance camera, it provides the image in the chat.  
 
 :information_source: **Note**: *unblinkingBot is an alpha, open-source project.*  
 
