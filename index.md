@@ -16,32 +16,32 @@ If you ask it for a snapshot of a surveillance camera, it provides the image in 
 
 ## Why  
 
-I wanted a way to access my [motionEyeOs](https://github.com/ccrisan/motioneyeos/wiki) system from outside of my home network (while away from home for example), without a static IP address, without a Dynamic DNS service, and without exposing ports to the Internet.  
+I wanted a way to access my [motionEyeOs](https://github.com/ccrisan/motioneyeos/wiki) surveillance system from outside of my home network (while away from home for example), without a static IP address, without a Dynamic DNS service, and without exposing ports to the Internet.  
 
 ## How  
 
 ### [Slack](https://slack.com/)  
 
-I decided to accomplish this using a [Slack bot](https://api.slack.com/bot-users). [Slack](https://github.com/slackhq) offered a real-time messaging service that I was already using and familiar with, and the [Slack API](https://api.slack.com/) looked great. I wanted to use [Node.js](https://github.com/nodejs) for this project, so I went with the [Slack Developer Kit for Node.js](https://slackapi.github.io/node-slack-sdk/).  
+The unblinkingBot is a [Slack bot](https://api.slack.com/bot-users). [Slack](https://github.com/slackhq) offers a real-time messaging service that many people are already using and familiar with, and the [Slack API](https://api.slack.com/) is great. The [Slack Developer Kit for Node.js](https://slackapi.github.io/node-slack-sdk/) is a wrapper module for the Slack [RTM](https://api.slack.com/rtm) and [Web](https://api.slack.com/web) APIs.  
 
 ### [systemd](https://github.com/systemd/systemd)  
 
-For reliability, the bot needed to start automatically, run unattended for long periods of time, and recover from possible crashes. For this, the bot runs as a [systemd](https://github.com/systemd/systemd) based service.  
+For reliability, the bot runs as a [systemd](https://github.com/systemd/systemd) based service so that it starts automatically, runs unattended for long periods of time, and recovers from possible crashes.  
 
 ### [Docker](https://github.com/docker)  
 
-Installing and running the bot should require minimal steps, maybe even just a single step. Although it is possible to install the bot in a Linux system using the systemd service file, enable the service, start the service, and verify that the service is running, those steps might appear complicated for someone unfamiliar with systemd, Linux, sudo, etc. Alternatively, the bot can be run inside of a [Docker](https://github.com/docker) container using a single ```docker run``` command.  
+Installing and running the bot in a single step is possible with [Docker](https://github.com/docker) . Although it is possible to install the bot in a Linux system using the systemd service file, enable the service, start the service, and verify that the service is running, those steps might appear complicated for someone unfamiliar with systemd, Linux, sudo, etc. Alternatively, the bot can be run inside of a [Docker](https://github.com/docker) container using a single ```docker run``` command.  
 
 ### Web Front-End  
 
-Once running, setting up the bot needed to be simple, so I gave it a web front-end using [Express](https://github.com/expressjs/express/), [Socket.IO](https://github.com/socketio/socket.io), [Pug](https://github.com/pugjs/pug), and [Level](https://github.com/Level/level). From the web UI a user can save their unique [Slack bot-user](https://api.slack.com/bot-users) token, choose a default [Slack](https://slack.com/) channel or user for the bot to deliver notifications to, save surveillance system integration details, etc.  
+Once running, setting up the bot is as simple as using a web page. The bot serves up a web front-end using [Express](https://github.com/expressjs/express/), [Socket.IO](https://github.com/socketio/socket.io), [Pug](https://github.com/pugjs/pug), and [Level](https://github.com/Level/level). From the web interface, a user can save their unique [Slack bot-user](https://api.slack.com/bot-users) token, save surveillance system integration details, etc.  
 
 ## Source Code Repositories  
 
 There are separate repositories for amd64 and armv7hf CPU architectures.  
 
 [nothingworksright/unblinkingbot](https://github.com/nothingworksright/unblinkingbot) (amd64)  
-[nothingworksright/unblinkingbot_pi](https://github.com/nothingworksright/unblinkingbot_pi) (armv7hf)  
+[nothingworksright/unblinkingbot_pi](https://github.com/nothingworksright/unblinkingbot_pi) (armv7hf, such as a [Raspberry Pi](https://www.raspberrypi.org/products/))  
 
 ___
 
