@@ -1,20 +1,20 @@
 # unblinkingBot  
 
-A home-surveillance-system assistant bot.  
-
 ![Logo](img/unblinkingbot_192x192.png)  
 
 ___
 
 ## About  
 
-The unblinkingBot is a [Slack bot](https://api.slack.com/bot-users), hosted on your home server. The bot acts as an assistant, interfacing with your home-surveillance-system such as [motionEyeOs](https://github.com/ccrisan/motioneyeos/wiki).  
+The unblinkingBot is a surveillance-system assistant. It is an application that runs on your own server (such as a [Raspberry Pi](https://www.raspberrypi.org/products/)), providing an interface between your surveillance system and your Slack team.  
 
-:information_source: **Note**: *unblinkingBot is an alpha, open-source project.*
+It connects to [Slack](https://slack.com/) as a [bot-user](https://api.slack.com/bot-users), so you talk to it using the Slack application. If you ask it for a snapshot of a surveillance camera, it provides the image in the chat.  
+
+:information_source: **Note**: *unblinkingBot is an alpha, open-source project.*  
 
 ## Why  
 
-I wanted a way to access my [motionEyeOs](https://github.com/ccrisan/motioneyeos/wiki) system from outside of my home network (while away from home for example), without a static IP address, without a Dynamic DNS service, and without exposing ports to the Internet.  
+A way to access my [motionEyeOs](https://github.com/ccrisan/motioneyeos/wiki) system from outside of my home network (while away from home for example), without a static IP address, without a Dynamic DNS service, and without exposing ports to the Internet.  
 
 ## How  
 
