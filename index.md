@@ -12,7 +12,8 @@ It is an application that runs on your own server (such as a [Raspberry Pi](http
 
 If you ask it for a snapshot of a surveillance camera, it provides the image in the chat.  
 
-Documentation is available via the wiki:
+Documentation, such as installation instructions, is available via the wiki:
+
 - [unblinkingBot wiki](https://github.com/nothingworksright/unblinkingbot/wiki) (for amd64 systems)  
 - [unblinkingPi wiki](https://github.com/nothingworksright/unblinkingbot_pi/wiki) (for armv7hf systems, like Raspberry Pi)  
 
