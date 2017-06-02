@@ -50,7 +50,7 @@ There are separate repositories for amd64 and armv7hf CPU architectures.
 
 ___
 
-&copy; 2017 [__nothingworksright__](https://github.com/nothingworksright)  
+:copyright: 2017 [__nothingworksright__](https://github.com/nothingworksright) :no_entry:  
 
 View the [source code repository for this website](https://github.com/nothingworksright/unblinkingbot_website)  
 [![Code Climate](https://codeclimate.com/github/nothingworksright/unblinkingbot_website/badges/gpa.svg)](https://codeclimate.com/github/nothingworksright/unblinkingbot_website) [![Issue Count](https://codeclimate.com/github/nothingworksright/unblinkingbot_website/badges/issue_count.svg)](https://codeclimate.com/github/nothingworksright/unblinkingbot_website)  
