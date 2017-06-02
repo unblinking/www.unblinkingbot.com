@@ -8,11 +8,11 @@ ___
 
 The unblinkingBot is a surveillance-system assistant.  
 
-It is an application that runs on your own server (such as a [Raspberry Pi](https://www.raspberrypi.org/products/)), providing an interface between your surveillance system and your [Slack team](https://get.slack.help/hc/en-us/articles/115004071768). It connects to [Slack](https://slack.com/) as a [bot-user](https://api.slack.com/bot-users), so you talk to it using the [Slack application](https://get.slack.help/hc/en-us/articles/201746897-Slack-apps-for-computers-phones-tablets).  
+It is an application that runs on your own server (such as a [Raspberry Pi](https://www.raspberrypi.org/products/)), providing an interface between your surveillance system and your [Slack team](https://get.slack.help/hc/en-us/articles/115004071768). It connects to [Slack](https://slack.com/) as a [bot-user](https://api.slack.com/bot-users), and you talk to it using the [Slack application](https://get.slack.help/hc/en-us/articles/201746897-Slack-apps-for-computers-phones-tablets).  
 
-If you ask it for a snapshot of a surveillance camera, it provides the image in the chat.  
+If you ask the unblinkingBot for a snapshot of a surveillance camera, it provides the image in the chat.  
 
-Documentation, such as installation instructions, is available via the wiki:
+Documentation, such as installation instructions, is available via the wiki:  
 
 - [unblinkingBot wiki](https://github.com/nothingworksright/unblinkingbot/wiki) (for amd64 systems)  
 - [unblinkingPi wiki](https://github.com/nothingworksright/unblinkingbot_pi/wiki) (for armv7hf systems, like Raspberry Pi)  
@@ -33,13 +33,13 @@ The unblinkingBot is a [Slack bot](https://api.slack.com/bot-users). [Slack](htt
 
 For reliability, the bot runs as a [systemd](https://github.com/systemd/systemd) based service so that it starts automatically, runs unattended for long periods of time, and recovers from possible crashes.  
 
-### [Docker](https://github.com/docker)  
+### [Docker](https://github.com/docker) :whale:  
 
 Installing and running the bot in a single step is possible with [Docker](https://github.com/docker) . Although it is possible to install the bot in a Linux system using the systemd service file, enable the service, start the service, and verify that the service is running, those steps might appear complicated for someone unfamiliar with systemd, Linux, sudo, etc. Alternatively, the bot can be run inside of a [Docker](https://github.com/docker) container using a single ```docker run``` command.  
 
-### Web Front-End  
+### Web Front-End :globe_with_meridians:  
 
-Once running, setting up the bot is as simple as using a web page. The bot serves up a web front-end using [Express](https://github.com/expressjs/express/), [Socket.IO](https://github.com/socketio/socket.io), [Pug](https://github.com/pugjs/pug), and [Level](https://github.com/Level/level). From the web interface, a user can save their unique [Slack bot-user](https://api.slack.com/bot-users) token, save surveillance system integration details, etc.  
+Once running, setting up the bot is as simple as using a web page. The bot serves up a web front-end using [Express](https://github.com/expressjs/express/), [Socket.IO](https://github.com/socketio/socket.io), and [Pug](https://github.com/pugjs/pug). From the web interface, a user can save their unique [Slack bot-user](https://api.slack.com/bot-users) token, save surveillance system integration details, etc.  
 
 ## Source Code Repositories  
 
