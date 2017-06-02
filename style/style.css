@@ -6,7 +6,7 @@ img.emoji {
     transform: none;
     width: 1em;
     height: 1em;
-    vertical-align: text-top;
+    vertical-align: text-center;
     padding: 0;
     margin: 0;
 }
