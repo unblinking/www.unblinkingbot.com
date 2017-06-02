@@ -33,11 +33,11 @@ The unblinkingBot is a [Slack bot](https://api.slack.com/bot-users). [Slack](htt
 
 For reliability, the bot runs as a [systemd](https://github.com/systemd/systemd) based service so that it starts automatically, runs unattended for long periods of time, and recovers from possible crashes.  
 
-### [Docker](https://github.com/docker) :whale:  
+### [Docker](https://github.com/docker)  
 
 Installing and running the bot in a single step is possible with [Docker](https://github.com/docker) . Although it is possible to install the bot in a Linux system using the systemd service file, enable the service, start the service, and verify that the service is running, those steps might appear complicated for someone unfamiliar with systemd, Linux, sudo, etc. Alternatively, the bot can be run inside of a [Docker](https://github.com/docker) container using a single ```docker run``` command.  
 
-### Web Front-End :globe_with_meridians:  
+### Web Front-End  
 
 Once running, setting up the bot is as simple as using a web page. The bot serves up a web front-end using [Express](https://github.com/expressjs/express/), [Socket.IO](https://github.com/socketio/socket.io), and [Pug](https://github.com/pugjs/pug). From the web interface, a user can save their unique [Slack bot-user](https://api.slack.com/bot-users) token, save surveillance system integration details, etc.  
 
