@@ -1,7 +1,7 @@
 /* From https://github.com/sindresorhus/github-markdown-css */
 
 img.emoji {
-    display: inline;
+    display: inline-block;
     left: 0;
     transform: none;
     width: 1em;
