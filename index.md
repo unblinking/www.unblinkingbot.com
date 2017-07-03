@@ -35,7 +35,7 @@ Documentation is available via the wiki:
 - [unblinkingBot wiki](https://github.com/nothingworksright/unblinkingbot/wiki) (for amd64 systems)  
 - [unblinkingPi wiki](https://github.com/nothingworksright/unblinkingbot_pi/wiki) (for armv7hf systems, like Raspberry Pi)  
 
-🛈 __Note__: _unblinkingBot is an alpha, open-source project._  
+ℹ __Note__: _unblinkingBot is an alpha, open-source project._  
 
 ## Why  
 
