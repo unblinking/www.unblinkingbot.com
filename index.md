@@ -2,8 +2,6 @@
 
 ![Logo](img/unblinkingbot_192x192.png)  
 
-___
-
 ## tl;dr  
 
 ```Text
