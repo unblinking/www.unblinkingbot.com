@@ -4,24 +4,43 @@
 
 ___
 
+## tl;dr  
+
+```Text
+jmg1138       | @unblinkingbot get me the camera list  
+unblinkingbot | Here are the camera names that you requested:  
+              | • office  
+              | • driveway  
+              | • kitchen  
+jmg1138       | @unblinkingbot get me a snapshot of the driveway camera
+unblinkingbot | Here's that picture of the driveway that you wanted.
+              | ╒════════════════════════╕
+              | │                        │
+              | │                        │
+              | │                        │
+              | ╘════════════════════════╛
+jmg1138       | thanks @unblinkingbot  
+unblinkingbot | That's my name @jmg1138, don't wear it out! 
+```
+
 ## About  
 
 The unblinkingBot is a surveillance-system assistant.  
 
 It is an application that runs on your own server (such as a [Raspberry Pi](https://www.raspberrypi.org/products/)), providing an interface between your surveillance system and your [Slack team](https://get.slack.help/hc/en-us/articles/115004071768). It connects to [Slack](https://slack.com/) as a [bot-user](https://api.slack.com/bot-users), and you talk to it using the [Slack application](https://get.slack.help/hc/en-us/articles/201746897-Slack-apps-for-computers-phones-tablets).  
 
-If you ask the unblinkingBot for a snapshot of a surveillance camera, it provides the image in the chat.  
+If you ask the unblinkingBot for a snapshot from one of your surveillance cameras, it replies with the picture, right there in the chat window.  
 
-Documentation, such as installation instructions, is available via the wiki:  
+Documentation is available via the wiki:  
 
 - [unblinkingBot wiki](https://github.com/nothingworksright/unblinkingbot/wiki) (for amd64 systems)  
 - [unblinkingPi wiki](https://github.com/nothingworksright/unblinkingbot_pi/wiki) (for armv7hf systems, like Raspberry Pi)  
 
-:information_source: **Note**: *unblinkingBot is an alpha, open-source project.*  
+🛈 __Note__: _unblinkingBot is an alpha, open-source project._  
 
 ## Why  
 
-I wanted a way to access my [motionEyeOs](https://github.com/ccrisan/motioneyeos/wiki) surveillance system from outside of my home network (while away from home for example), without a static IP address, without a Dynamic DNS service, and without exposing ports to the Internet.  
+I wanted to access my [motionEyeOs](https://github.com/ccrisan/motioneyeos/wiki) surveillance system from outside of my home network (while away from home for example), without a static IP address, without a Dynamic DNS service, and without exposing ports to the Internet.  
 
 ## How  
 
@@ -31,7 +50,7 @@ The unblinkingBot is a [Slack bot](https://api.slack.com/bot-users). [Slack](htt
 
 ### [systemd](https://github.com/systemd/systemd)  
 
-For reliability, the bot runs as a [systemd](https://github.com/systemd/systemd) based service so that it starts automatically, runs unattended for long periods of time, and recovers from possible crashes.  
+The bot runs as a [systemd](https://github.com/systemd/systemd) based service so that it starts automatically, runs unattended for long periods of time, and recovers gracefully in there are any unforseen crashes.  
 
 ### [Docker](https://github.com/docker)  
 
@@ -50,7 +69,6 @@ There are separate repositories for amd64 and armv7hf CPU architectures.
 
 ___
 
-:copyright: 2017 [__nothingworksright__](https://github.com/nothingworksright) :no_entry:  
+© 2017 [__nothingworksright__](https://github.com/nothingworksright)  
 
-View the [source code repository for this website](https://github.com/nothingworksright/unblinkingbot_website)  
-[![Code Climate](https://codeclimate.com/github/nothingworksright/unblinkingbot_website/badges/gpa.svg)](https://codeclimate.com/github/nothingworksright/unblinkingbot_website) [![Issue Count](https://codeclimate.com/github/nothingworksright/unblinkingbot_website/badges/issue_count.svg)](https://codeclimate.com/github/nothingworksright/unblinkingbot_website)  
+View the [source code repository that powers this website](https://github.com/nothingworksright/unblinkingbot_website)  
