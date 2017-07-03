@@ -7,20 +7,19 @@ ___
 ## tl;dr  
 
 ```Text
-jmg1138       | @unblinkingbot get me the camera list  
-unblinkingbot | Here are the camera names that you requested:  
-              | • office  
-              | • driveway  
-              | • kitchen  
-jmg1138       | @unblinkingbot get me a snapshot of the driveway camera
-unblinkingbot | Here's that picture of the driveway that you wanted.
-              | ╒════════════════════════╕
-              | │                        │
-              | │                        │
-              | │                        │
-              | ╘════════════════════════╛
-jmg1138       | thanks @unblinkingbot  
-unblinkingbot | That's my name @jmg1138, don't wear it out! 
+me  | @bot get me the camera list
+bot | Here are the camera names
+    | that you requested:
+    |  • office
+    |  • driveway
+    |  • kitchen
+me  | @bot get the driveway snapshot
+bot | Here's that picture of the
+    | driveway that you wanted.
+    | ...
+me  | thanks @bot
+bot | That's my name, don't wear
+    | it out!
 ```
 
 ## About  
