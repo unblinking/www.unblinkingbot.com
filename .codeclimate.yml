@@ -4,5 +4,3 @@ engines:
 ratings:
   paths:
     - "**.md"
-exclude_paths:
-- "LICENSE.md"
