@@ -2,6 +2,8 @@
 
 This is the source code repository for [www.unblinkingBot.com](http://www.unblinkingBot.com/).  
 
+[![Code Climate](https://codeclimate.com/github/nothingworksright/unblinkingbot_website/badges/gpa.svg)](https://codeclimate.com/github/nothingworksright/unblinkingbot_website) [![Issue Count](https://codeclimate.com/github/nothingworksright/unblinkingbot_website/badges/issue_count.svg)](https://codeclimate.com/github/nothingworksright/unblinkingbot_website)  
+
 ## About  
 
 The official website of the unblinkingBot, a Slack bot home-surveillance-system assistant.  
@@ -10,8 +12,8 @@ Hosting of this website is provided by [GitHub Pages](https://pages.github.com/)
 
 ## Show your support  
 
-Support this project by [making a pledge via Patreon](https://www.Patreon.com/jmg1138).  
+Support this open source project and motivate me to continue development. Using [Beerpay.io](https://beerpay.io/nothingworksright/unblinkingbot?focus=wish) you can send me support, and make a wish for a new feature or issue fix.  
 
-## Badges  
+[Click here to show your support](https://beerpay.io/nothingworksright/unblinkingbot?focus=wish).  
 
-[![Code Climate](https://codeclimate.com/github/nothingworksright/unblinkingbot_website/badges/gpa.svg)](https://codeclimate.com/github/nothingworksright/unblinkingbot_website) [![Issue Count](https://codeclimate.com/github/nothingworksright/unblinkingbot_website/badges/issue_count.svg)](https://codeclimate.com/github/nothingworksright/unblinkingbot_website)  
+[![Beerpay](https://beerpay.io/nothingworksright/unblinkingbot/badge.svg?style=beer)](https://beerpay.io/nothingworksright/unblinkingbot)  [![Beerpay](https://beerpay.io/nothingworksright/unblinkingbot/make-wish.svg?style=flat)](https://beerpay.io/nothingworksright/unblinkingbot?focus=wish)  
