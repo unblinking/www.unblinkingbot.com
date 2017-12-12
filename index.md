@@ -2,22 +2,28 @@
 
 ![Logo](img/unblinkingbot_192x192.png)  
 
-## tl;dr  
+## TL;DR  
 
 ```Text
-me  | @bot get me the camera list
-bot | Here are the camera names
-    | that you requested:
-    |  • office
-    |  • driveway
-    |  • kitchen
-me  | @bot get the driveway snapshot
-bot | Here's that picture of the
-    | driveway that you wanted.
-    | ...
-me  | thanks @bot
+me  | @bot?
 bot | That's my name, don't wear
-    | it out!
+    | it out! 🤓
+me  | get a preview
+bot | Here's that preview of the
+    | motionEye system that you wanted
+    | 🖼
+me  | get the snapshot list
+bot | Here are the snapshot names
+    | that you requested
+    | ► office
+    | ► basement
+me  | get the office snapshot
+bot | Here's that snapshot of the
+    | office that you wanted.
+    | 🖼
+me  | thanks @bot
+bot | It was my pleasure, I know you'd
+    | do the same for me 😉
 ```
 
 ## About  
