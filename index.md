@@ -10,7 +10,7 @@ bot | That's my name, don't wear
     | it out! 🤓
 me  | get a preview
 bot | Here's that preview of the
-    | motionEye system that you wanted
+    | security system that you wanted
     | 🖼
 me  | get the snapshot list
 bot | Here are the snapshot names
