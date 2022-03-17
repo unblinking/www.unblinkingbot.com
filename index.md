@@ -26,7 +26,7 @@ bot | It was my pleasure, I know you'd
     | do the same for me 😉
 ```
 
-ℹ __Note__: _unblinkingBot is an alpha, open-source project._  
+ℹ __Note__: _unblinkingBot is an alpha project._  
 
 ## Source code  
 
