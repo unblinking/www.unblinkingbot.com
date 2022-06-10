@@ -1,4 +1,4 @@
-# ಠ_ಠ unblinkingBot, Website  
+# ಠ_ಠ unblinkingBot, the website  
 
 This is the source code repository for [www.unblinkingBot.com](http://www.unblinkingBot.com/).  
 
