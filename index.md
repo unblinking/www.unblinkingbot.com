@@ -34,6 +34,6 @@ bot | It was my pleasure, I know you'd
 
 ___
 
-© 2017 [__unblinking I/O__](https://github.com/unblinking)  
+© 2017-2022 [__unblinking I/O__](https://github.com/unblinking)  
 
 View the [source code repository that powers this website](https://github.com/unblinking/www.unblinkingbot.com)  
