@@ -30,10 +30,10 @@ bot | It was my pleasure, I know you'd
 
 ## Source code  
 
-[nothingworksright/unblinkingbot](https://github.com/nothingworksright/unblinkingbot)  
+[unblinking/unblinkingbot](https://github.com/unblinking/unblinkingbot)  
 
 ___
 
-© 2017 [__nothingworksright__](https://github.com/nothingworksright)  
+© 2017 [__unblinking I/O__](https://github.com/unblinking)  
 
-View the [source code repository that powers this website](https://github.com/nothingworksright/unblinkingbot_website)  
+View the [source code repository that powers this website](https://github.com/unblinking/www.unblinkingbot.com)  
